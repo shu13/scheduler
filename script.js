@@ -150,6 +150,7 @@ $("#request").click(function(){
 })
 
 $("#save").click(function(){
+  calendar.needs = [];
   for(var i = 0; i<28; i++){
     for(var j = 0; j<time_slots.length; j++){
       var data = $("#day"+i+"_"+j).val();
