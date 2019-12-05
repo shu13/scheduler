@@ -1,0 +1,25 @@
+.day{
+    height:220px;
+    width:13%;
+    display:inline-block;
+    border:1px solid;
+    border-color:black;
+    margin-right:5px;
+  }
+  .calendar, .week{
+    left:50%;
+    transform:translateX(-50%);
+    position:relative;
+    margin-top:30px;
+  }
+  .day_needs{
+    position:absolute;
+  }
+  .day_needs > div input{
+    width:60px;
+    left:80px;
+    position:absolute;
+  }
+  #save{
+    margin-top:12px;
+  }
